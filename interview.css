@@ -1,0 +1,59 @@
+@charset "utf-8";
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Noto sans KR','Oswald';
+        }
+        #wrap {
+            margin:0 auto;
+            width: 80%;
+            padding: 80px;
+            border: 2px dotted #ccc;
+            box-shadow: 2px 2px 5px #ccc;
+        }
+        h1,h2,h3,h4,h5,h6 {
+            font-weight: normal;
+            font-size: 1rem;
+        }
+        header h1 {
+            color: orangered;  
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        header p {
+            margin-bottom: 50px;
+            line-height: 1.5rem;
+        }
+        section {
+            width: 100%;
+        }
+        section article h2 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            padding: 20px 0;
+        }
+        section article p {
+            padding: 10px 20px;
+            margin-bottom: 20px;
+            line-height: 1.5rem;
+            width: 90%;
+            background-color: lightblue;
+            margin: 0 auto;
+            display: none;
+        }
+        footer {
+            margin-top: 3.0em;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+        /*스크립트관련*/
+        span {
+            color: salmon;
+            cursor: pointer;
+        }
